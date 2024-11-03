@@ -1,0 +1,15 @@
+services:
+  modelforge-api:
+    build:
+      context: .
+    container_name: modelforge-api
+    ports:
+      - "8002:8002"
+    environment:
+      - MODEL_CACHE_DIR=/app/models
+      - LOG_LEVEL=INFO
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

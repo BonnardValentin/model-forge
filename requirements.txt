@@ -1,0 +1,9 @@
+transformers
+torch
+fastapi
+uvicorn
+pydantic
+python-dotenv
+PyYAML
+gunicorn
+loguru

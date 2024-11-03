@@ -1,0 +1,7 @@
+model:
+  name: EleutherAI/gpt-neo-125M
+  max_length: 150
+  temperature: 0.9
+
+server:
+  port: 8002
